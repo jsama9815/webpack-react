@@ -1,9 +1,6 @@
-const path = require ('path');
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const minicssextractplugin = require('mini-css-extract-plugin');
-const Cssminimizeplugin = require('css-minimizer-webpack-plugin');
-const Terserplugin = require('terser-webpack-plugin');
-const cleanwebpackplugin = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 
 module.exports = {
